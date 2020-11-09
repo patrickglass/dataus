@@ -32,7 +32,6 @@ struct CreateButtonView: View {
 }
 
 // PREVIEW
-
 struct CreateButtonView_Previews: PreviewProvider {
     static var previews: some View {
         CreateButtonView()

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct OnboardingView: View {
+    
     // PROPERTIES
     
     // BODY

@@ -16,6 +16,8 @@
 		C113503A25590FB000877A43 /* DatusCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113503925590FB000877A43 /* DatusCardView.swift */; };
 		C11350422559143900877A43 /* CreateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11350412559143900877A43 /* CreateButtonView.swift */; };
 		C113504C25591A0B00877A43 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113504B25591A0B00877A43 /* OnboardingView.swift */; };
+		C11350542559207B00877A43 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11350532559207B00877A43 /* InfoView.swift */; };
+		C113505D2559242800877A43 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113505C2559242800877A43 /* TitleModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C113503925590FB000877A43 /* DatusCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatusCardView.swift; sourceTree = "<group>"; };
 		C11350412559143900877A43 /* CreateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateButtonView.swift; sourceTree = "<group>"; };
 		C113504B25591A0B00877A43 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		C11350532559207B00877A43 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		C113505C2559242800877A43 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		C1134FFB255908BE00877A43 /* datus */ = {
 			isa = PBXGroup;
 			children = (
+				C113505B2559241300877A43 /* Modifier */,
 				C113503825590F8D00877A43 /* Model */,
 				C113503725590F8800877A43 /* View */,
 				C113503025590F3500877A43 /* App */,
@@ -152,6 +157,7 @@
 			children = (
 				C113503925590FB000877A43 /* DatusCardView.swift */,
 				C11350412559143900877A43 /* CreateButtonView.swift */,
+				C11350532559207B00877A43 /* InfoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -161,6 +167,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C113505B2559241300877A43 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				C113505C2559242800877A43 /* TitleModifier.swift */,
+			);
+			path = Modifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,10 +306,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C113505D2559242800877A43 /* TitleModifier.swift in Sources */,
 				C11350422559143900877A43 /* CreateButtonView.swift in Sources */,
 				C1134FFF255908BE00877A43 /* ContentView.swift in Sources */,
 				C1134FFD255908BE00877A43 /* datusApp.swift in Sources */,
 				C113504C25591A0B00877A43 /* OnboardingView.swift in Sources */,
+				C11350542559207B00877A43 /* InfoView.swift in Sources */,
 				C113503A25590FB000877A43 /* DatusCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
