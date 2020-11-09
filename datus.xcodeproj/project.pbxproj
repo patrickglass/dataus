@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1134FFD255908BE00877A43 /* datusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1134FFC255908BE00877A43 /* datusApp.swift */; };
+		C1134FFF255908BE00877A43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1134FFE255908BE00877A43 /* ContentView.swift */; };
+		C1135001255908C000877A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1135000255908C000877A43 /* Assets.xcassets */; };
+		C1135004255908C000877A43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1135003255908C000877A43 /* Preview Assets.xcassets */; };
+		C113500F255908C000877A43 /* datusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113500E255908C000877A43 /* datusTests.swift */; };
+		C113501A255908C100877A43 /* datusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1135019255908C100877A43 /* datusUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C113500B255908C000877A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1134FF1255908BE00877A43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1134FF8255908BE00877A43;
+			remoteInfo = datus;
+		};
+		C1135016255908C100877A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1134FF1255908BE00877A43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1134FF8255908BE00877A43;
+			remoteInfo = datus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1134FF9255908BE00877A43 /* datus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = datus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1134FFC255908BE00877A43 /* datusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datusApp.swift; sourceTree = "<group>"; };
+		C1134FFE255908BE00877A43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1135000255908C000877A43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1135003255908C000877A43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1135005255908C000877A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C113500A255908C000877A43 /* datusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = datusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C113500E255908C000877A43 /* datusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datusTests.swift; sourceTree = "<group>"; };
+		C1135010255908C100877A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1135015255908C100877A43 /* datusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = datusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1135019255908C100877A43 /* datusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datusUITests.swift; sourceTree = "<group>"; };
+		C113501B255908C100877A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1134FF6255908BE00877A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1135007255908C000877A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1135012255908C100877A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1134FF0255908BE00877A43 = {
+			isa = PBXGroup;
+			children = (
+				C1134FFB255908BE00877A43 /* datus */,
+				C113500D255908C000877A43 /* datusTests */,
+				C1135018255908C100877A43 /* datusUITests */,
+				C1134FFA255908BE00877A43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1134FFA255908BE00877A43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1134FF9255908BE00877A43 /* datus.app */,
+				C113500A255908C000877A43 /* datusTests.xctest */,
+				C1135015255908C100877A43 /* datusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1134FFB255908BE00877A43 /* datus */ = {
+			isa = PBXGroup;
+			children = (
+				C1134FFC255908BE00877A43 /* datusApp.swift */,
+				C1134FFE255908BE00877A43 /* ContentView.swift */,
+				C1135000255908C000877A43 /* Assets.xcassets */,
+				C1135005255908C000877A43 /* Info.plist */,
+				C1135002255908C000877A43 /* Preview Content */,
+			);
+			path = datus;
+			sourceTree = "<group>";
+		};
+		C1135002255908C000877A43 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C1135003255908C000877A43 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C113500D255908C000877A43 /* datusTests */ = {
+			isa = PBXGroup;
+			children = (
+				C113500E255908C000877A43 /* datusTests.swift */,
+				C1135010255908C100877A43 /* Info.plist */,
+			);
+			path = datusTests;
+			sourceTree = "<group>";
+		};
+		C1135018255908C100877A43 /* datusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1135019255908C100877A43 /* datusUITests.swift */,
+				C113501B255908C100877A43 /* Info.plist */,
+			);
+			path = datusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1134FF8255908BE00877A43 /* datus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C113501E255908C100877A43 /* Build configuration list for PBXNativeTarget "datus" */;
+			buildPhases = (
+				C1134FF5255908BE00877A43 /* Sources */,
+				C1134FF6255908BE00877A43 /* Frameworks */,
+				C1134FF7255908BE00877A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = datus;
+			productName = datus;
+			productReference = C1134FF9255908BE00877A43 /* datus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1135009255908C000877A43 /* datusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1135021255908C100877A43 /* Build configuration list for PBXNativeTarget "datusTests" */;
+			buildPhases = (
+				C1135006255908C000877A43 /* Sources */,
+				C1135007255908C000877A43 /* Frameworks */,
+				C1135008255908C000877A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C113500C255908C000877A43 /* PBXTargetDependency */,
+			);
+			name = datusTests;
+			productName = datusTests;
+			productReference = C113500A255908C000877A43 /* datusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1135014255908C100877A43 /* datusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1135024255908C100877A43 /* Build configuration list for PBXNativeTarget "datusUITests" */;
+			buildPhases = (
+				C1135011255908C100877A43 /* Sources */,
+				C1135012255908C100877A43 /* Frameworks */,
+				C1135013255908C100877A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1135017255908C100877A43 /* PBXTargetDependency */,
+			);
+			name = datusUITests;
+			productName = datusUITests;
+			productReference = C1135015255908C100877A43 /* datusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1134FF1255908BE00877A43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					C1134FF8255908BE00877A43 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					C1135009255908C000877A43 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = C1134FF8255908BE00877A43;
+					};
+					C1135014255908C100877A43 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = C1134FF8255908BE00877A43;
+					};
+				};
+			};
+			buildConfigurationList = C1134FF4255908BE00877A43 /* Build configuration list for PBXProject "datus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1134FF0255908BE00877A43;
+			productRefGroup = C1134FFA255908BE00877A43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1134FF8255908BE00877A43 /* datus */,
+				C1135009255908C000877A43 /* datusTests */,
+				C1135014255908C100877A43 /* datusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1134FF7255908BE00877A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1135004255908C000877A43 /* Preview Assets.xcassets in Resources */,
+				C1135001255908C000877A43 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1135008255908C000877A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1135013255908C100877A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1134FF5255908BE00877A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1134FFF255908BE00877A43 /* ContentView.swift in Sources */,
+				C1134FFD255908BE00877A43 /* datusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1135006255908C000877A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C113500F255908C000877A43 /* datusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1135011255908C100877A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C113501A255908C100877A43 /* datusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C113500C255908C000877A43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1134FF8255908BE00877A43 /* datus */;
+			targetProxy = C113500B255908C000877A43 /* PBXContainerItemProxy */;
+		};
+		C1135017255908C100877A43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1134FF8255908BE00877A43 /* datus */;
+			targetProxy = C1135016255908C100877A43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C113501C255908C100877A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C113501D255908C100877A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C113501F255908C100877A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"datus/Preview Content\"";
+				DEVELOPMENT_TEAM = K5LQDV4KD2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = datus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.swisstech.datus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1135020255908C100877A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"datus/Preview Content\"";
+				DEVELOPMENT_TEAM = K5LQDV4KD2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = datus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.swisstech.datus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1135022255908C100877A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5LQDV4KD2;
+				INFOPLIST_FILE = datusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.swisstech.datusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/datus.app/datus";
+			};
+			name = Debug;
+		};
+		C1135023255908C100877A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5LQDV4KD2;
+				INFOPLIST_FILE = datusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.swisstech.datusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/datus.app/datus";
+			};
+			name = Release;
+		};
+		C1135025255908C100877A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5LQDV4KD2;
+				INFOPLIST_FILE = datusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.swisstech.datusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = datus;
+			};
+			name = Debug;
+		};
+		C1135026255908C100877A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K5LQDV4KD2;
+				INFOPLIST_FILE = datusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.swisstech.datusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = datus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1134FF4255908BE00877A43 /* Build configuration list for PBXProject "datus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C113501C255908C100877A43 /* Debug */,
+				C113501D255908C100877A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C113501E255908C100877A43 /* Build configuration list for PBXNativeTarget "datus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C113501F255908C100877A43 /* Debug */,
+				C1135020255908C100877A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1135021255908C100877A43 /* Build configuration list for PBXNativeTarget "datusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1135022255908C100877A43 /* Debug */,
+				C1135023255908C100877A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1135024255908C100877A43 /* Build configuration list for PBXNativeTarget "datusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1135025255908C100877A43 /* Debug */,
+				C1135026255908C100877A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1134FF1255908BE00877A43 /* Project object */;
+}
