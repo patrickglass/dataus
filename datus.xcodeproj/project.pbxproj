@@ -13,6 +13,9 @@
 		C1135004255908C000877A43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1135003255908C000877A43 /* Preview Assets.xcassets */; };
 		C113500F255908C000877A43 /* datusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113500E255908C000877A43 /* datusTests.swift */; };
 		C113501A255908C100877A43 /* datusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1135019255908C100877A43 /* datusUITests.swift */; };
+		C113503A25590FB000877A43 /* DatusCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113503925590FB000877A43 /* DatusCardView.swift */; };
+		C11350422559143900877A43 /* CreateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11350412559143900877A43 /* CreateButtonView.swift */; };
+		C113504C25591A0B00877A43 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113504B25591A0B00877A43 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		C1135015255908C100877A43 /* datusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = datusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1135019255908C100877A43 /* datusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datusUITests.swift; sourceTree = "<group>"; };
 		C113501B255908C100877A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C113503925590FB000877A43 /* DatusCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatusCardView.swift; sourceTree = "<group>"; };
+		C11350412559143900877A43 /* CreateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateButtonView.swift; sourceTree = "<group>"; };
+		C113504B25591A0B00877A43 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +101,9 @@
 		C1134FFB255908BE00877A43 /* datus */ = {
 			isa = PBXGroup;
 			children = (
-				C1134FFC255908BE00877A43 /* datusApp.swift */,
-				C1134FFE255908BE00877A43 /* ContentView.swift */,
+				C113503825590F8D00877A43 /* Model */,
+				C113503725590F8800877A43 /* View */,
+				C113503025590F3500877A43 /* App */,
 				C1135000255908C000877A43 /* Assets.xcassets */,
 				C1135005255908C000877A43 /* Info.plist */,
 				C1135002255908C000877A43 /* Preview Content */,
@@ -128,6 +135,32 @@
 				C113501B255908C100877A43 /* Info.plist */,
 			);
 			path = datusUITests;
+			sourceTree = "<group>";
+		};
+		C113503025590F3500877A43 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C1134FFC255908BE00877A43 /* datusApp.swift */,
+				C1134FFE255908BE00877A43 /* ContentView.swift */,
+				C113504B25591A0B00877A43 /* OnboardingView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C113503725590F8800877A43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C113503925590FB000877A43 /* DatusCardView.swift */,
+				C11350412559143900877A43 /* CreateButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C113503825590F8D00877A43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11350422559143900877A43 /* CreateButtonView.swift in Sources */,
 				C1134FFF255908BE00877A43 /* ContentView.swift in Sources */,
 				C1134FFD255908BE00877A43 /* datusApp.swift in Sources */,
+				C113504C25591A0B00877A43 /* OnboardingView.swift in Sources */,
+				C113503A25590FB000877A43 /* DatusCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +463,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ca.swisstech.datus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -449,6 +486,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ca.swisstech.datus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

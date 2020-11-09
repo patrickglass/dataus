@@ -11,7 +11,13 @@ import SwiftUI
 struct datusApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnboardingView()
         }
+    }
+}
+
+struct datusApp_Previews: PreviewProvider {
+    static var previews: some View {
+        OnboardingView()
     }
 }
